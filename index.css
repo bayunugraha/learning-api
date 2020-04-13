@@ -1,0 +1,10 @@
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #1e7e34;
+    color: white;
+    display: block;
+    font-style: italic;
+    width: 300px;
+    margin: auto;
+}
