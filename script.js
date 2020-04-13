@@ -19,7 +19,7 @@ $.getJSON( "https://api.tvmaze.com/search/shows?q=batman", function( data ) {
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title text-dark" id="exampleModalLongTitle">Image<h5>
+                                <h5 class="modal-title text-dark text-center" id="exampleModalLongTitle">${data.show.name}<h5>
                                 <buttontype="button"class="close"data-dismiss="modal"aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -28,7 +28,7 @@ $.getJSON( "https://api.tvmaze.com/search/shows?q=batman", function( data ) {
                             <img src="${data.show.image.medium}"/>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="text-center btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
