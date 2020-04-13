@@ -23,9 +23,9 @@ $.getJSON( "https://api.tvmaze.com/search/shows?q=batman", function( data ) {
                             </div>
                             <div class="modal-body">
                                 <img src="${data.show.image.medium}"/>
-                            </div>
-                            <div class="modal-footer d-flex flex-column">
                                 <p class="mb-3 mt-2">${data.show.summary}</p>
+                            </div>
+                            <div class="modal-footer text-right">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                             </div>
                         </div>
