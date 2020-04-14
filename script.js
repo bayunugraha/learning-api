@@ -14,7 +14,7 @@ $.getJSON( "https://api.tvmaze.com/search/shows?q=batman", function( data ) {
             <td>${data.show.schedule.time} ${data.show.schedule.days}</td>
             <td>${data.show.rating.average}</td>
             <td>
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter-${i}">See Image</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter-${i}">More</button>
                 <div class="modal fade" id="exampleModalCenter-${i}" >
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content bg-dark">

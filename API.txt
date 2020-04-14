@@ -1,0 +1,18 @@
+API antaramuka yang berupa kumpulan fungsi yang dipanggil atau
+dijalankan oleh program lain.
+
+Didalam API ada Webservice didalam Webservice ada REST API
+Fungsi API untuk membuat webservice(data) menjadi bisa diakses oleh banyak platform
+JSON adalah format standar data
+
+RestAPI adalah standar untuk membuat sebuah API(Webservice )
+Https bisa digunakan untuk bertukar data menggunakan url/internet
+
+Javasript
+JSON.stringify(); adalah cara mengubah object menjadiJSON 
+JSON.parse(); adalah cara mengubah JSON menjadi object 
+
+Mengakses JSON
+-Ajax
+ 1.XMLHttpRequest
+ 2.Jquery
