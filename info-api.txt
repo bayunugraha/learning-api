@@ -12,7 +12,12 @@ Javasript
 JSON.stringify(); adalah cara mengubah object menjadiJSON 
 JSON.parse(); adalah cara mengubah JSON menjadi object 
 
-Mengakses JSON
--Ajax
- 1.XMLHttpRequest
+Mengakses JSON GET/POST
+ 1.Ajax XMLHttpRequest
  2.Jquery
+ 3.Axios
+
+ Same-origin policy adalah aturan/kebijakan untuk mengakses dan menampilkan data/script dll dari tempat lain diluar domainnya(online)
+
+ CORS(Cross Origin Resource Sharing) adalah cara konfigurasi yang membuat kita dapat mengakses sebuah resouce dari domain lain,caranya dengan membuat server yang memperbolehkan/mengijinkan adanya akses data dari luar domain,
+ memodifikasi Access-Control-Allow-Origin dengan membuat file .htaccess
