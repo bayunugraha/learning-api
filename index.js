@@ -8,7 +8,8 @@ $.getJSON( "https://api.tvmaze.com/search/shows?q=batman", function( data ) {
             genre += r;
             if(i != (len_genre - 1)) genre += ', '; 
         })
-        html = `<tr>
+        html = 
+        `<tr>
             <td>${data.show.name}</td>
             <td>${genre}</td>
             <td>${data.show.schedule.time} ${data.show.schedule.days}</td>
@@ -28,10 +29,11 @@ $.getJSON( "https://api.tvmaze.com/search/shows?q=batman", function( data ) {
                             <div class="modal-footer text-right">
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                             </div>
-                        </div>
+                         </div>   
                     </div>
-                </td>
-            </tr>`;
+                </div>
+            </td>
+        </tr>`;
         $('#daftar-film').append(html);
     }); 
    });
